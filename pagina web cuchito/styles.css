@@ -1,0 +1,68 @@
+.nabvar-brand  {
+    position: relative;
+    background: url(img/Sin-título-2.png);
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+}
+section{
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.40129555240064774) 200%), url(img/33879.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.titulo-banner{
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 200px;
+    font-family: 'Archivo Black', sans-serif;
+    -webkit-text-stroke: 2px black; 
+    text-align: justify;
+    }
+    p{
+        color: #ffffff;
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 800;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+    }
+    
+    @media (max-width: 575.98px) { section{
+        height: auto;
+    } }
+    .btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+        background-color: #EB0ADB ;
+    }
+ button a{
+        color: #fff;
+        text-decoration: none;
+      }
+ button  a:hover{
+        color: #fff;
+        text-decoration: none;
+      }
+      .img-banner{
+     margin-top: 13rem;
+        background-image: url(img/young-successful-businessman-sitting-at-workplace-office-background.jpg);
+width: 100%;
+height: 50vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-mask-image: url(img/SL_100620_36400_10-[Convertido].png);
+        mask-image: url(img/SL_100620_36400_10-[Convertido].png);
+        mask-size: 100% 100%;
+        -webkit-mask-size:100% 100%;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+ 
+      }
+
+      @media (max-width: 575.98px) {
+          .img-banner{
+              margin-top: 5rem;
+              height: 40vh;
+          }
+    } 
